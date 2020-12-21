@@ -3,27 +3,28 @@
 
 ## Mở đầu ứng dụng ta sẽ thấy giao diện màn hình hiển thị như sau:
 
-![](RackMultipart20201221-4-kbj870_html_9ecad215bca8e32f.png)
+![1](https://user-images.githubusercontent.com/70943426/102795408-59e6d480-43df-11eb-8366-e8323cc414ad.png)
+
 
 ### Chúng ta sẽ có 3 nút để click vào:
 
 #### Nút thời tiết Hà Nội sẽ xem được nhiệt độ hiện tại của Hà Nội, trạng thái thời tiết, độ ẩm và tốc độ gió. Cụ thể khi ta click vào sẽ hiển thị như sau:
 
-![](RackMultipart20201221-4-kbj870_html_4e584c7eedabdc0b.png)
+![2](https://user-images.githubusercontent.com/70943426/102795458-6b2fe100-43df-11eb-8260-031c1634ab79.png)
 
 #### Nút thứ hai là nút thời tiết Hà Nam. Khi click vào thì cũng sẽ hiển thị cho chúng ta các thông tin như nút thời tiết Hà Nội. Cụ thể khi click vào sẽ cho chúng ta thông tin như sau:
 
-![](RackMultipart20201221-4-kbj870_html_3022f29d215b2d30.png)
+![3](https://user-images.githubusercontent.com/70943426/102795483-74b94900-43df-11eb-9d71-6f09b857daca.png)
 
 #### Nút cuối cùng là nút tìm kiếm thông tin thời tiết của các thành phố trên toàn thế giới khi vào ta sẽ được màn hình mặc định như sau:
 
-![](RackMultipart20201221-4-kbj870_html_6567eea3fe77a6e.png)
+![4](https://user-images.githubusercontent.com/70943426/102795515-800c7480-43df-11eb-962e-8d677ef3618c.png)
 
-### Ta sẽ nhận được thông tin nhiệt độ vào trạng thái thời tiết của thành phố đó.
+> Ta sẽ nhận được thông tin nhiệt độ vào trạng thái thời tiết của thành phố đó.
 
 ### Giờ ta thử tìm kiếm trạng thái thời tiết của thành phố London nước Anh
 
-![](RackMultipart20201221-4-kbj870_html_7ea912d2d51db787.png)
+![5](https://user-images.githubusercontent.com/70943426/102795520-826ece80-43df-11eb-8de3-7c5905fb843e.png)
 
 > Nhiệt độ và trạng thái thời tiết của London.
 
