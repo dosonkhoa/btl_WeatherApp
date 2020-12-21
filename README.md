@@ -1,4 +1,4 @@
-
+# ỨNG DỤNG XEM THỜI TIẾT(WEATHER APP)
 ### Ứng dụng xem thời tiết này giúp chúng ta có thể xem được nhiệt độ, trạng thái thời tiết của các thành phố trên thế giới
 
 ## Mở đầu ứng dụng ta sẽ thấy giao diện màn hình hiển thị như sau:
@@ -30,63 +30,61 @@
 
 ### Giờ ta sẽ thử tìm thông tin về thành phố khác như thành phố Seoul của Hàn Quốc
 
-![](RackMultipart20201221-4-kbj870_html_4c0f3fd6f4b71c33.png)
+![6](https://user-images.githubusercontent.com/70943426/102795741-d1b4ff00-43df-11eb-9897-f6c6414f0492.png)
 
 > Ta nhận thấy với một trạng thái thời tiết thì ảnh backgroud sẽ hiển thị đúng với trạng thái đó.
 
-Ở đây ứng dụng của chúng ta có 10 hình ảnh tương ứng với 10 trạng thái thời tiết khác nhau
+### Ở đây ứng dụng của chúng ta có 10 hình ảnh tương ứng với 10 trạng thái thời tiết khác nhau
 
-![](RackMultipart20201221-4-kbj870_html_e1a7edfb8b35d202.png)
+![7](https://user-images.githubusercontent.com/70943426/102795817-eabdb000-43df-11eb-82a4-2ae96a7aceee.png)
 
-Ứng dụng này chúng ta sử dụng 2 API thời tiết khác nhau để tìm kiếm thông tin. API của OpenWeatherMap([https://openweathermap.org/api](https://openweathermap.org/api)) và API của MetaWeather([https://www.metaweather.com/](https://www.metaweather.com/))
+## Ứng dụng này chúng ta sử dụng 2 API thời tiết khác nhau để tìm kiếm thông tin. API của OpenWeatherMap([https://openweathermap.org/api](https://openweathermap.org/api)) và API của MetaWeather([https://www.metaweather.com/](https://www.metaweather.com/))
 
-Hai nút đầu tiên tìm kiếm thời tiết của Hà Nội và Hà Nam sử dụng API của OpenWeatherMap
+### Hai nút đầu tiên tìm kiếm thời tiết của Hà Nội và Hà Nam sử dụng API của OpenWeatherMap
 
-![](RackMultipart20201221-4-kbj870_html_1f7e460878602df9.png)
+![8](https://user-images.githubusercontent.com/70943426/102796048-3e2ffe00-43e0-11eb-9b30-9e3979421a1f.png)
 
-Sử dụng API Curent Weather Data để hiển thị thông tin thời tiết hiện tại của thành phố cụ thể
+### Sử dụng API Curent Weather Data để hiển thị thông tin thời tiết hiện tại của thành phố cụ thể
 
-Các giá trị chúng ta lấy về để hiển thị lên màn hình là: temp( nhiệt độ), description( mô tả trạng thái thời tiết), currently(chi tiết trạng thái thời tiết), humidity(độ ẩm) và windSpeed(tốc độ gió).
+### Các giá trị chúng ta lấy về để hiển thị lên màn hình là: temp( nhiệt độ), description( mô tả trạng thái thời tiết), currently(chi tiết trạng thái thời tiết), humidity(độ ẩm) và windSpeed(tốc độ gió).
 
-![](RackMultipart20201221-4-kbj870_html_8ce50adea58b157f.png)
+![9](https://user-images.githubusercontent.com/70943426/102796131-615aad80-43e0-11eb-9a97-ef417c781f53.png)
 
-Nút cuối cùng là nút tìm kiếm thời tiết theo khu vực sử dụng API của MetaWeather
+### Nút cuối cùng là nút tìm kiếm thời tiết theo khu vực sử dụng API của MetaWeather
 
-![](RackMultipart20201221-4-kbj870_html_ee485fa3ffb4bbe.png)
+![10](https://user-images.githubusercontent.com/70943426/102796188-7c2d2200-43e0-11eb-96a5-5ced717b6286.png)
 
-API này giúp chúng ta tìm kiếm thông tin thời tiết của các thành phố trên toàn thế giới.
+### API này giúp chúng ta tìm kiếm thông tin thời tiết của các thành phố trên toàn thế giới.
 
-![](RackMultipart20201221-4-kbj870_html_5b91899bc9d187fc.png)
+![11](https://user-images.githubusercontent.com/70943426/102796241-8fd88880-43e0-11eb-89a9-9137888a5d29.png)
 
-Các giá trị chúng ta lấy về để hiển thị lên màn hình là: temperature(nhiệt độ) và location(địa điểm). Trạng thái thời tiết lấy về chính là hình ảnh dạng .png hiển thị trên màn hình.
+### Các giá trị chúng ta lấy về để hiển thị lên màn hình là: temperature(nhiệt độ) và location(địa điểm). Trạng thái thời tiết lấy về chính là hình ảnh dạng .png hiển thị trên màn hình.
 
-Ứng dụng này chúng ta sử dụng thêm nhiều thư viện như
+### Ứng dụng này chúng ta sử dụng thêm nhiều thư viện như
 
-![](RackMultipart20201221-4-kbj870_html_57fdd83f20026586.png)
+![12](https://user-images.githubusercontent.com/70943426/102796352-b4346500-43e0-11eb-883b-6014350b8788.png)
 
-Thư viện **font\_awesome** để thêm các icon phong phú của thông tin thời tiết
+#### Thư viện **font\_awesome** để thêm các icon phong phú của thông tin thời tiết
 
-![](RackMultipart20201221-4-kbj870_html_d33f0cb3573bbce5.png)
+#### Thư viện **http** giúp chúng ta có thể điều hướng đến 1 trang web để lấy thông tin cần thiết về thời tiết.
 
-Thư viện **http** giúp chúng ta có thể điều hướng đến 1 trang web để lấy thông tin cần thiết về thời tiết.
+#### Thư viện **dart:convert** có tính năng mã hóa, giải mã dữ liệu, kể cả JSON, UTF-8,…
 
-Thư viện **dart:convert** có tính năng mã hóa, giải mã dữ liệu, kể cả JSON, UTF-8,…
+#### Thư viện **dart:io** thư viện IO cung cấp các chức năng về File, Socket, HTTP,…
 
-Thư viện **dart:io** thư viện IO cung cấp các chức năng về File, Socket, HTTP,…
+### Ứng dụng gồm có 4 màn hình để tương tác
 
-Ứng dụng gồm có 4 màn hình để tương tác
+### Từ màn hình chính điều hướng sang 3 màn hình còn lại
 
-Từ màn hình chính điều hướng sang 3 màn hình còn lại
+![13](https://user-images.githubusercontent.com/70943426/102796470-eba31180-43e0-11eb-91b8-95f6346165e7.png)
 
-![](RackMultipart20201221-4-kbj870_html_4429d9a7a5de8d07.png)
+### Khi gọi API ứng dụng luôn sử dụng hàm bất đồng bộ để ứng dụng chạy được mượt mà mà không bị xung đột với nhau.
 
-Khi gọi API ứng dụng luôn sử dụng hàm bất đồng bộ để ứng dụng chạy được mượt mà mà không bị xung đột với nhau.
+![14](https://user-images.githubusercontent.com/70943426/102796544-05445900-43e1-11eb-999c-2dca2491690c.png)
 
-![](RackMultipart20201221-4-kbj870_html_e1a1a72c35bb81d1.png)
+### Sau đây là toàn bộ source code của ứng dụng
 
-Sau đây là toàn bộ source code của ứng dụng
-
-import &#39;dart:io&#39;;
+`import &#39;dart:io&#39;;
 
 import &#39;package:flutter/material.dart&#39;;
 
@@ -964,4 +962,4 @@ class \_WeatherAppState extends State\&lt;WeatherApp\&gt; {
 
   }
 
-}
+}`
